@@ -25,9 +25,14 @@ I decided to build my response in AngularJS, even though my immediate idea was t
 
 I have only used Angular a little and wanted more experience with it/a challenge. Despite the time constraints I am pretty happy with my solution because of my lack of experience with Angular and that I'd never worked with a restful API in this fashion, either (a single page app calling a paginated RESTful API.)
 
-I'm not happy with the styling at all (because there is none!). I put functionality over styling but would like to come back and add grid for the program tiles at the very least, making it responsive would be the next thing, funky animations later on. 
+## Issues
+
+I'm not happy with the styling at all (because there is none!). I put functionality over styling but would like to come back and add grid for the program tiles at the very least, making it responsive would be the next thing, funky animations as content loads in later on. 
 
 I struggled for some time with the ImageChef bit on this, breaking up the URL, it's such a small problem! I'd like to work better with the supplied breakpoints when making it responsive, I'm a big fan of optimization but haven't been able to put something together for this instance.
 
 Finally, last priority would be to refactor the code and add unit tests, but as discussed I only could spare a few hours to complete this around other tasks.
 
+## Setup
+
+Simply clone this to your computer/server and open Index. AngularJS is served over CDN, there is nothing to install and I have tried to keep it as lightweight as possible.
