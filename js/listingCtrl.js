@@ -55,8 +55,3 @@ function listingController($http) {
   };
 
 }
-
-// The API end point follows the following format:
-// `{base_uri}/ibl/v1/atoz/{letter}/programmes?page={page}`
-// The base URI is:
-// `ibl.api.bbci.co.uk`

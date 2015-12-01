@@ -13,6 +13,21 @@ Each of the listing pages should include:
 2. the ability to paginate if the letter has more than 20 results
 3. navigation to other letters
 
+The API end point follows the following format:
+`{base_uri}/ibl/v1/atoz/{letter}/programmes?page={page}`
+The base URI is:
+`ibl.api.bbci.co.uk`
 ```
 
-I am going to write my solution using Angular.
+## Process 
+
+I decided to build my response in AngularJS, even though my immediate idea was to do everything with AJAX and jQuery (something I'm very comfortable with).
+
+I have only used Angular a little and wanted more experience with it/a challenge. Despite the time constraints I am pretty happy with my solution because of my lack of experience with Angular and that I'd never worked with a restful API in this fashion, either (a single page app calling a paginated RESTful API.)
+
+I'm not happy with the styling at all (because there is none!). I put functionality over styling but would like to come back and add grid for the program tiles at the very least, making it responsive would be the next thing, funky animations later on. 
+
+I struggled for some time with the ImageChef bit on this, breaking up the URL, it's such a small problem! I'd like to work better with the supplied breakpoints when making it responsive, I'm a big fan of optimization but haven't been able to put something together for this instance.
+
+Finally, last priority would be to refactor the code and add unit tests, but as discussed I only could spare a few hours to complete this around other tasks.
+
