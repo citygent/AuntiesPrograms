@@ -40,4 +40,5 @@ Finally, last priority would be to refactor the code and add unit tests, but as 
 
 ## Setup
 
-Simply clone this to your computer/server and open Index. AngularJS is served over CDN, there is nothing to install and I have tried to keep it as lightweight as possible.
+Simply clone this to your computer/server and open Index.html whilst connected to the internet. 
+AngularJS is served over CDN, there is nothing to install and I have tried to keep it as lightweight as possible.
