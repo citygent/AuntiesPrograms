@@ -13,8 +13,12 @@
 
   <ul>
     <li ng-repeat="letter in listingCtrl.letters">
-    <!-- not sure a state controller is easiest/simplest way, probably not. -->
-      <a ui-sref="">{{ letter }}</a> 
+      <button ng-click="listingCtrl.getListings(letter, 1)">{{ letter }}</button> 
+    </li>
+  </ul>
+  <ul>
+    <li ng-repeat="pageN in listingCtrl.pages">
+      <button ng-click="listingCtrl.getListings(listingCtrl.selectedLetter, pageN)">Page {{ pageN }}</button> 
     </li>
   </ul>
 
