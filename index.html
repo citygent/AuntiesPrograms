@@ -11,5 +11,20 @@
 <body ng-controller='listingController as listingCtrl'>
   <h1>{{ listingCtrl.title }}</h1>
 
+  <ul>
+    <li ng-repeat="letter in listingCtrl.letters">
+    <!-- not sure a state controller is easiest/simplest way, probably not. -->
+      <a ui-sref="">{{ letter }}</a> 
+    </li>
+  </ul>
+
+  <ul>
+    <li ng-repeat="program in listingCtrl.programmes">
+      <img ng-src="{{ listingCtrl.imageChef(program.images.standard) }}">
+      <h3>{{program.title}}</h3>
+    </li>
+  </ul>
+
+
 </body>
 </html>
