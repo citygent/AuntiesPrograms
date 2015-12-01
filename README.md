@@ -5,7 +5,8 @@ Response to a code-exercise for a well-known broadcasting corporation (other bro
 ## Brief
 
 ```
-Your team has been asked to work with a new HTTP API that provides an online media player with lists of programmes sorted alphabetically. Your task is to use the API to generate an A-Z listing for the website.
+Your team has been asked to work with a new HTTP API that provides an online media player with lists of programmes sorted alphabetically. 
+Your task is to use the API to generate an A-Z listing for the website.
 
 Each of the listing pages should include:
 
@@ -24,6 +25,10 @@ The base URI is:
 I decided to build my response in AngularJS, even though my immediate idea was to do everything with AJAX and jQuery (something I'm very comfortable with).
 
 I have only used Angular a little and wanted more experience with it/a challenge. Despite the time constraints I am pretty happy with my solution because of my lack of experience with Angular and that I'd never worked with a restful API in this fashion, either (a single page app calling a paginated RESTful API.)
+
+To keep things simple I didn't paginate anything from client-side, nor did I load results not immediately needed in the view, and called on the API on a page by page basis.
+
+I've still managed to keep page buttons within each letter dynamic. I'd like to eventually extend this to the alphabet itself, perhaps with forward and back buttons, depending on need/amount of pages of results.
 
 ## Issues
 
